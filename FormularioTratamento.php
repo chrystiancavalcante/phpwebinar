@@ -6,15 +6,15 @@
     
     // Baixar o MySQL Workbench
 
-    echo "Tamanho de \"Softblue\": " . strlen("Softblue") . "<br>"; // 8
-    echo "Tamanho de 'Andre': " . strlen("Andre") . "<br>"; // 5
-    echo "Tamanho de 'André': " . strlen("André") . "<br>"; // 6
-    echo "Tamanho de 'André': " . strlen(utf8_decode("André")) . "<br>"; // 5
+    //echo "Tamanho de \"Softblue\": " . strlen("Softblue") . "<br>"; // 8
+    //echo "Tamanho de 'Andre': " . strlen("Andre") . "<br>"; // 5
+    //echo "Tamanho de 'André': " . strlen("André") . "<br>"; // 6
+    //echo "Tamanho de 'André': " . strlen(utf8_decode("André")) . "<br>"; // 5
 
     echo "Filtro de 'a': " . filter_var("a", FILTER_VALIDATE_INT) . "<br>"; // false
     echo "Filtro de '5': " . filter_var("5", FILTER_VALIDATE_INT) . "<br>"; // 5
     echo "Filtro de 'andrem@softblue.com.br': " . filter_var("andrem@softblue.com.br", FILTER_VALIDATE_EMAIL) . "<br>"; // andrem@softblue.com.br
-    echo "Filtro de 'andrem@#@softblue.com.br': " . filter_var("andrem@#@softblue.com.br", FILTER_VALIDATE_EMAIL) . "<br>"; // 
+    echo "Filtro de 'andrem@#@softblue.com.br': " . filter_var("andrem@#@softblue.com.br", FILTER_VALIDATE_EMAIL) . "<br>"; //                                                                    
     echo "Filtro de 'http://www.phpacademy.com.br': " . filter_var("http://www.phpacademy.com.br", FILTER_VALIDATE_URL) . "<br>"; // http://www.phpacademy.com.br
     echo "Filtro de 'não tenho facebook': " . filter_var("não tenho facebook", FILTER_VALIDATE_URL) . "<br>"; //
     
