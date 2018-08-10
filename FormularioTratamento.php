@@ -6,7 +6,7 @@
     
     // Baixar o MySQL Workbench
 
-    //echo "Tamanho de \"Softblue\": " . strlen("Softblue") . "<br>"; // 8
+   //echo "Tamanho de \"Softwarepro\": " . strlen("Softblue") . "<br>"; //
     //echo "Tamanho de 'Andre': " . strlen("Andre") . "<br>"; // 5
     //echo "Tamanho de 'André': " . strlen("André") . "<br>"; // 6
     //echo "Tamanho de 'André': " . strlen(utf8_decode("André")) . "<br>"; // 5
